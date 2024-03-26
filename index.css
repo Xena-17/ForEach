@@ -4,19 +4,25 @@
     box-sizing: border-box;
 }
 header {
+    background-color: yellow;
     width: 1400px;
     margin:auto;
     display: flex;
     justify-content: flex-end;
     align-items: center;
-}
+    }
 
-# container_image {
-   width: 100%; 
+.header_container {
+   width: 33%; 
+}
+#container_image {
+   width: 300px;
+   justify-content: center; 
    }
 
 img {
-    width: 300px;
+    width: 100%;
+    justify-content: center;
     }
 
 ul {
