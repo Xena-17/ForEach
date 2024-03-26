@@ -13,8 +13,10 @@ header {
     }
 
 .header_container {
-   width: 33%; 
-}
+   width: 33%;
+   display: flex;
+   justify-content:center; 
+  }
 #container_image {
    width: 300px;
    justify-content: center; 
@@ -27,5 +29,18 @@ img {
 
 ul {
     list-style: none;
+    margin: 10px;
     display: flex;
+    justify-content: space-between
     }
+
+#suscribe {
+    background-color: #ffd900;
+    border-radius: 2px;
+    margin-left: 10px;
+    padding: 10px;
+}
+#connect {
+    border-right: 2px black solid;
+    padding: 10px;
+}
